@@ -85,9 +85,9 @@ def slide_portada():
         st.markdown("<br>", unsafe_allow_html=True)
         st.markdown("""
         <p style="text-align: center; font-size: 1.3rem;">
-            <strong>Estudiante:</strong> [Tu Nombre]<br>
+            <strong>Estudiante:</strong> Bayaslian Santiago <br>
             <strong>Carrera:</strong> Ciencia de Datos e IA<br>
-            <strong>Materia:</strong> Bases de Datos
+            <strong>Docente:</strong> Yanina Scudero
         </p>
         """, unsafe_allow_html=True)
 
