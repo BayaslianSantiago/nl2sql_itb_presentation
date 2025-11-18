@@ -210,7 +210,6 @@ if 'slide' not in st.session_state:
 # ==================== SLIDES ====================
 
 def slide_portada():
-    st.markdown('<div class="slide-container">', unsafe_allow_html=True)
     st.markdown('<p class="big-title">💬 Habla con tu Base de Datos</p>', unsafe_allow_html=True)
     st.markdown('<p class="subtitle">Consultas en Lenguaje Natural usando Inteligencia Artificial</p>', unsafe_allow_html=True)
     
@@ -252,11 +251,8 @@ GROUP BY clientes.nombre;
             </p>
         </div>
         """, unsafe_allow_html=True)
-    
-    st.markdown('</div>', unsafe_allow_html=True)
 
 def slide_gancho():
-    st.markdown('<div class="slide-container">', unsafe_allow_html=True)
     st.markdown('<p class="section-title">🎯 Pregunta para ustedes</p>', unsafe_allow_html=True)
     
     st.markdown("<br><br>", unsafe_allow_html=True)
@@ -300,11 +296,8 @@ def slide_gancho():
             </div>
         </div>
         """, unsafe_allow_html=True)
-    
-    st.markdown('</div>', unsafe_allow_html=True)
 
 def slide_problema():
-    st.markdown('<div class="slide-container">', unsafe_allow_html=True)
     st.markdown('<p class="section-title">⚠️ El Problema Real</p>', unsafe_allow_html=True)
     
     col1, col2 = st.columns(2)
@@ -350,11 +343,8 @@ def slide_problema():
             </p>
         </div>
         """, unsafe_allow_html=True)
-    
-    st.markdown('</div>', unsafe_allow_html=True)
 
 def slide_base_datos():
-    st.markdown('<div class="slide-container">', unsafe_allow_html=True)
     st.markdown('<p class="section-title">🗄️ Nuestra Base de Datos</p>', unsafe_allow_html=True)
     
     st.markdown("""
@@ -409,11 +399,8 @@ def slide_base_datos():
             </div>
         </div>
         """, unsafe_allow_html=True)
-    
-    st.markdown('</div>', unsafe_allow_html=True)
 
 def slide_demo_momento():
-    st.markdown('<div class="slide-container">', unsafe_allow_html=True)
     st.markdown('<p class="big-title">🚀 ¡MOMENTO DEMO!</p>', unsafe_allow_html=True)
     
     st.markdown("<br>", unsafe_allow_html=True)
@@ -461,11 +448,8 @@ def slide_demo_momento():
             </div>
         </div>
         """, unsafe_allow_html=True)
-    
-    st.markdown('</div>', unsafe_allow_html=True)
 
 def slide_como_funciona():
-    st.markdown('<div class="slide-container">', unsafe_allow_html=True)
     st.markdown('<p class="section-title">🧠 ¿Cómo Funciona por Dentro?</p>', unsafe_allow_html=True)
     
     st.markdown("""
@@ -497,11 +481,8 @@ def slide_como_funciona():
         st.metric("🎯 Precisión", "95%+", "Alta confianza")
     with col3:
         st.metric("🔧 Capas", "7", "Modulares")
-    
-    st.markdown('</div>', unsafe_allow_html=True)
 
 def slide_diccionario():
-    st.markdown('<div class="slide-container">', unsafe_allow_html=True)
     st.markdown('<p class="section-title">📚 El Diccionario: Un Traductor</p>', unsafe_allow_html=True)
     
     st.markdown("""
@@ -567,11 +548,8 @@ def slide_diccionario():
             </div>
         </div>
         """, unsafe_allow_html=True)
-    
-    st.markdown('</div>', unsafe_allow_html=True)
 
 def slide_embeddings():
-    st.markdown('<div class="slide-container">', unsafe_allow_html=True)
     st.markdown('<p class="section-title">🔢 Entendiendo Significados (Embeddings)</p>', unsafe_allow_html=True)
     
     st.markdown("""
@@ -635,11 +613,8 @@ def slide_embeddings():
             </p>
         </div>
         """, unsafe_allow_html=True)
-    
-    st.markdown('</div>', unsafe_allow_html=True)
 
 def slide_similitud():
-    st.markdown('<div class="slide-container">', unsafe_allow_html=True)
     st.markdown('<p class="section-title">📐 Encontrando Coincidencias</p>', unsafe_allow_html=True)
     
     st.markdown("""
@@ -695,11 +670,8 @@ def slide_similitud():
             </p>
         </div>
         """, unsafe_allow_html=True)
-    
-    st.markdown('</div>', unsafe_allow_html=True)
 
 def slide_aprendizaje():
-    st.markdown('<div class="slide-container">', unsafe_allow_html=True)
     st.markdown('<p class="section-title">🎓 El Sistema Aprende de Ustedes</p>', unsafe_allow_html=True)
     
     st.markdown("""
@@ -772,11 +744,8 @@ ORDER BY precio DESC LIMIT 5;
         </p>
     </div>
     """, unsafe_allow_html=True)
-    
-    st.markdown('</div>', unsafe_allow_html=True)
 
 def slide_limitaciones():
-    st.markdown('<div class="slide-container">', unsafe_allow_html=True)
     st.markdown('<p class="section-title">🤔 Siendo Honestos: Limitaciones</p>', unsafe_allow_html=True)
     
     st.markdown("""
@@ -847,11 +816,8 @@ trimestre con descuento mayor a 10%"<br>
             </p>
         </div>
         """, unsafe_allow_html=True)
-    
-    st.markdown('</div>', unsafe_allow_html=True)
 
 def slide_casos_uso():
-    st.markdown('<div class="slide-container">', unsafe_allow_html=True)
     st.markdown('<p class="section-title">🌍 Casos de Uso Reales</p>', unsafe_allow_html=True)
     
     st.markdown("""
@@ -917,11 +883,8 @@ def slide_casos_uso():
         </h3>
     </div>
     """, unsafe_allow_html=True)
-    
-    st.markdown('</div>', unsafe_allow_html=True)
 
 def slide_futuro():
-    st.markdown('<div class="slide-container">', unsafe_allow_html=True)
     st.markdown('<p class="section-title">🔮 El Futuro: LLMs</p>', unsafe_allow_html=True)
     
     st.markdown("""
@@ -989,11 +952,8 @@ Respuesta: "La Sucursal Centro tuvo las mejores ventas en octubre<br>
 con $487,320 en total, 23% más que el mes anterior."
     </div>
     """, unsafe_allow_html=True)
-    
-    st.markdown('</div>', unsafe_allow_html=True)
 
 def slide_conexion_materia():
-    st.markdown('<div class="slide-container">', unsafe_allow_html=True)
     st.markdown('<p class="section-title">🎓 Conexión con lo que Ustedes Saben</p>', unsafe_allow_html=True)
     
     st.markdown("""
@@ -1061,11 +1021,8 @@ Lo que hace el sistema:<br>
 "clientes con email de gmail" → [Busca patrón] → [Ejecuta SQL]
     </div>
     """, unsafe_allow_html=True)
-    
-    st.markdown('</div>', unsafe_allow_html=True)
 
 def slide_cierre():
-    st.markdown('<div class="slide-container">', unsafe_allow_html=True)
     st.markdown('<p class="section-title">💭 Para Reflexionar</p>', unsafe_allow_html=True)
     
     st.markdown("<br>", unsafe_allow_html=True)
