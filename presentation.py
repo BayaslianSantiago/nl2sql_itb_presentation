@@ -588,8 +588,8 @@ def slide_preguntas():
             <p style="font-size: 1.5rem;">Gracias por su atención</p>
             <br>
             <p style="font-size: 1.2rem; color: #757575;">
-                📧 [tu_email]@ejemplo.com<br>
-                💼 GitHub: github.com/[tu_usuario]
+                📧 [bayasliansantiago@gmail.com]bayasliansantiago@gmail.com<br>
+                💼 GitHub: github.com/[BayaslianSantiago]
             </p>
         </div>
         """, unsafe_allow_html=True)
