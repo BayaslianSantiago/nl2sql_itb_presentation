@@ -588,7 +588,7 @@ def slide_preguntas():
             <p style="font-size: 1.5rem;">Gracias por su atención</p>
             <br>
             <p style="font-size: 1.2rem; color: #757575;">
-                📧 bayasliansantiago@gmail.com
+                📧 bayasliansantiago@gmail.com<br>
                 💼 GitHub: github.com/BayaslianSantiago
             </p>
         </div>
